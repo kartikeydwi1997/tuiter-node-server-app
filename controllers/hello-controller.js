@@ -1,5 +1,4 @@
 const HelloController = (app) => {
-    console.log('hello')
     app.get('/hello', (req, res) => {
         res.send('Life is good!')
     })
